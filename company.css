@@ -1,0 +1,120 @@
+h2{
+    text-align: center;
+    padding: 15px ;
+clear: both;
+font-family: "Roboto Mono", sans-serif;
+}
+main{
+    margin-top: 50px;
+}
+.companyInfo .container {
+    border-left:1px solid #212121 ;
+}
+.companyInfo{
+    padding-bottom: 60px;
+    font-family: 'Lora', serif;
+}
+.companyInfo p{
+    padding: 10px;
+    font-family: "Lora",sans-serif;
+}
+.companyContacts span{
+    font-weight: bold;
+}
+.contacts{
+    background: #eee;
+    overflow: hidden;
+    padding-bottom:60px ;
+    font-family: 'Lora', serif;
+}
+.contacts .social img{
+    filter: invert(0%);
+}
+.contacts .companyContacts{
+    width: 50%;
+    float: left;
+    background: #fff;
+    padding:20px  ;
+    box-sizing: border-box;
+}
+.companyContacts p{
+    padding: 20px 0;
+    border-bottom: 1px solid #aaa;
+    font-family: "Lora",sans-serif;
+}
+.contacts iframe{
+    width: 50%;
+    float: right;
+}
+.teammate {
+    /* background: red; */
+    overflow: hidden;
+    float:left;
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+    font-family: "Lora",sans-serif;
+    transition: 1s;
+    border-radius: 5px;
+}
+.teammate:hover{
+    background-color: #f0f0f0;
+}
+.teammate >img {
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 75px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.teammate >div{
+    /* background-color: burlywood; */
+    /* display: inline-block; */
+    float: left;
+    margin-top:25px;
+}
+.teammate >div img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    /* background-color: chocolate; */
+    margin-right: 5px;
+}
+.teammate>div p{
+    display: inline-block;
+    /* background-color: chartreuse; */
+    line-height: 25px;
+    vertical-align: top;
+    font-family: "Lora",sans-serif;
+}
+.teammate h6{
+    font-size: 15px;
+    font-family: "Lora",sans-serif;
+}
+.phoneIcon{
+  filter: invert(100%);  
+}
+@media(max-width:600px){
+    .contacts .companyContacts{
+        float: none;
+        width: 100%;
+    }
+    .contacts iframe{
+        float: none;
+        width: 100%;
+    }
+    .teammate{
+        float: none;
+        width: 90%;
+        margin:0 auto 20px;
+    }
+.teammate >div{
+    margin: 0 0;
+}
+.teammate img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+}
